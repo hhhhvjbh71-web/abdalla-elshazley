@@ -280,7 +280,7 @@ async function employeeSyncPlatform() {
 }
 
 /**
- * المهندس اسماعيل الامام v2.0 - Core Intelligence Engine
+ * مستر عبد الله الشاذلي v2.0 - Core Intelligence Engine
  * Specialized for Mr. Mohamed's Education Center
  */
 
@@ -10142,22 +10142,22 @@ function initExperienceEnhancements() {
 function getProgramProfile() {
     if (!db._settings.appProfile) {
         db._settings.appProfile = {
-            centerName: 'المهندس اسماعيل الامام',
+            centerName: 'مستر عبد الله الشاذلي',
             teacherName: '',
-            stickerTitle: 'المهندس اسماعيل الامام',
+            stickerTitle: 'مستر عبد الله الشاذلي',
             phone: ''
         };
     }
     // ضمان وجود centerName الافتراضي لو كان فارغًا
     if (!db._settings.appProfile.centerName) {
-        db._settings.appProfile.centerName = 'المهندس اسماعيل الامام';
+        db._settings.appProfile.centerName = 'مستر عبد الله الشاذلي';
     }
     return db._settings.appProfile;
 }
 
 function applyProgramProfile() {
     const profile = getProgramProfile();
-    const centerDisplay = profile.centerName || 'المهندس اسماعيل الامام';
+    const centerDisplay = profile.centerName || 'مستر عبد الله الشاذلي';
     document.title = `${centerDisplay} | نظام الإدارة`;
 
     // شعار الشريط الجانبي
@@ -12364,7 +12364,7 @@ const exposures = {
         snapshot.gradesList = gradesList;
 
         const dataJsContent = `/**
- * المهندس اسماعيل الامام Data Storage File - للبيع والنقل
+ * مستر عبد الله الشاذلي Data Storage File - للبيع والنقل
  * Created: ${new Date().toLocaleString()}
  */
 window.edu_initial_data = ${JSON.stringify(snapshot, null, 4)};`;
